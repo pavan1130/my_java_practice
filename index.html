@@ -1,11 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Href Attribute Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- <link rel="icon" href="iron-man.svg" /> -->
+    <title>Pavan Kumar</title>
   </head>
   <body>
-    <h1>Href Attribute Example</h1>
-    <p>
-      <a href="https://www.freecodecamp.org/contribute/">The freeCodeCamp Contribution Page</a> shows you how and where you can contribute to freeCodeCamp's community and growth.
-    </p>
+    <div id="root">
+      <div id="navbar">
+        <div class="profession">{ Developer }</div>
+        <div class="tabs">
+          <button class="tab" id="home">Home</button>
+          <button class="tab" id="about">About</button>
+          <button class="tab" id="portfolio">Portfolio</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="intro">
+          <div>
+            <div class="line"></div>
+            I'm Pavan Kumar Bandaru, <br />
+            a <span class="job">Software Developer</span>
+          </div>
+        </div>
+        <img
+          class="profile"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBKTp6S-Y-RI0OxwmUSM5m0kq4Fr8nQdxduw&usqp=CAU"
+          alt="pavan"
+        />
+      </div>
+    </div>
+    <div id="patientAge"></div>
+    <div id="homeModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Home</h2>
+        </div>
+        <div class="modal-body">
+          <p>This is Home tab</p>
+        </div>
+        <div class="modal-footer">
+          <h3>This section still has to be updated!</h3>
+        </div>
+      </div>
+    </div>
+    <div id="aboutModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="modal-body">
+          <p>I am Pavan Kumar Bandaru, from Rayachoty.</p>
+        </div>
+        <div class="modal-footer">
+          <h3>This section still has to be updated!</h3>
+        </div>
+      </div>
+    </div>
+    <div id="portfolioModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Portfolio</h2>
+        </div>
+        <div class="modal-body">
+          <p>This is my Portfolio</p>
+        </div>
+        <div class="modal-footer">
+          <h3>This section still has to be updated!</h3>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
